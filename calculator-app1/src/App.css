@@ -1,0 +1,47 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.output{
+  border: 2px solid black;
+  /* height: 50px; */
+  display: flex;
+  /* align-items: end; */
+  /* justify-content: right; */
+  text-align:end;
+  flex-direction:column;
+  border-radius: 5px;
+}
+
+.output input{
+  text-align: right;
+  height: 30px;
+  border: none;
+  padding: 5px;
+}
+
+.output-1{
+  font-size: 20px;
+}
+.output-2{
+  font-size: 30px;
+  color: black;
+}
+
+.key-pad{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+button{
+  width: 80px;
+  height: 50px;
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 5px;
+}
