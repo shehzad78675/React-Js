@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.register-form{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  border: 2px solid black;
+  /* height: 40vh; */
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.input-field{
+  height: 2rem;
+  font-size: 20px;
+  padding: 4px;
+  margin: 10px 0px;
+  background-color: rgb(241, 238, 238);
+}
+
+.btn{
+  background-color: rgb(24, 192, 61);
+  height: 3rem;
+  margin-top: 5px;
+}
+
+span{
+  color: red;
+  font-size: 15px;
+  margin-top: -9px;
+}
